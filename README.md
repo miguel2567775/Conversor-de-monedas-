@@ -1,38 +1,31 @@
-# Conversor de Monedas
+Convertidor de Divisas
+Este proyecto consiste en un Convertidor de Divisas que emplea una API de tasas de cambio para realizar conversiones entre distintas monedas. Su principal es facilitar a los usuarios la conversión de una cantidad específica de dinero de una moneda a otra, seleccionada desde una lista de opciones disponibles.
 
-Este proyecto es un **Conversor de Monedas** que utiliza una API de tasas de cambio para convertir diferentes monedas. El objetivo de este programa es permitir a los usuarios convertir una cantidad de dinero de una moneda a otra seleccionada de una lista de monedas disponibles.
+Descripción
+El convertidor ofrece las siguientes funcionalidades a los usuarios:
 
-## Descripción
+Seleccione una moneda de origen.
+Elige una moneda de destino.
+Especifique la cantidad de dinero a convertir.
+Obtenga el resultado de la conversión en tiempo real, utilizando tasas de cambio actualizadas desde una API externa.
+Para lograr esto, el programa se conecta a la API de ExchangeRate-API, que proporciona las tasas de cambio más recientes.
 
-Este conversor de monedas permite a los usuarios:
-1. Elegir una moneda de origen.
-2. Elegir una moneda de destino.
-3. Ingresar la cantidad de dinero a convertir.
-4. Ver el resultado de la conversión en tiempo real, basado en tasas de cambio obtenidas de una API externa.
+siguientes monedas disponibles
+El convertidor admite las divisas:
 
-El programa utiliza la API de [ExchangeRate-API](https://www.exchangerate-api.com/) para obtener las tasas de cambio más actualizadas.
+ARS - Argentina (Peso argentino)
+BOB - Bolivia (Boliviano)
+COP - Colombia (Peso colombiano)
+VES - Venezuela (Bolívar soberano)
+CLP - Chile (Peso chileno)
+USD - Estados Unidos (Dólar estadounidense)
+PEN - Perú (Sol peruano)
+BRL - Brasil (Real brasileño)
+Requisitos
+Para ejecutar este proyecto en tu sistema, necesitas contar con lo siguiente:
 
-## Monedas disponibles
-
-El conversor admite las siguientes monedas:
-
-- **ARS** - Argentina (Peso argentino)
-- **BOB** - Bolivia (Boliviano boliviano)
-- **COP** - Colombia (Peso colombiano)
-- **VES** - Venezuela (Bolívar soberano)
-- **CLP** - Chile (Peso chileno)
-- **USD** - Estados Unidos (Dólar estadounidense)
-- **PEN** - Perú (Sol peruano)
-- **BRL** - Brasil (Real brasileño)
-
-## Requisitos
-
-Para ejecutar este proyecto, necesitas tener instalado lo siguiente en tu máquina:
-
-- **Java 11 o superior**.
-- **Conexión a Internet** (para acceder a la API de tasas de cambio).
-
-## Instalación
-
-1. Clona el codigo que se encuentra en la parte de files, entras a la carpeta src, y luego a principal.java. En ese lugar estara el codigo 
+Java 11 o una versión más reciente.
+Acceso a Internet (para conectarse a la API de tasas de cambio).
+Instalación
+Clona el código desde la sección de archivos, accede a la carpeta srcy localiza el archivo principal.java. Allí encontrará el código necesario para ejecutar el programa.
 
